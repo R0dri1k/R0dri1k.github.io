@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <title>CubeWorld login</title>
+</head>
+<body>
+    <main>
+        <section id="img-container">
+    <figure class="img">
+        <img src="minecraftimg.png" alt="Minecraft Medieval house">
+        <figcaption>CubeWorld.net</figcaption>
+    </figure>
+       </section>
+
+       <section id="form-container">
+        <div class="description">
+            <div class="title">
+            <p>This is not a real minecraft server! </p>
+             <h3>Register to get starter!</h3>
+            </div>
+             <form action="" method="post">
+             
+                <fieldset class="personal-info">
+                    <legend>Personal information</legend>
+                    <div class="container">
+                <label for="first-name" class="first-label">First name:</label>
+                 <input 
+                 type="text" 
+                 name="first-name" 
+                 id="first-name"
+                 required
+                 maxlength="140"
+                 minlength="3"
+                 class="first-input"
+                 >
+                <label for="last-name" class="first">Last name:</label>
+                 <input 
+                 type="text" 
+                 name="last-name" 
+                 id="last-name" 
+                 required 
+                 maxlength="140"
+                 minlength="3"
+                 class="column-input"
+                 >
+                </div>
+                
+                </fieldset>
+
+                <fieldset class="game-info">
+                    <legend>Game account</legend>
+                    <div class="container">
+                    <label for="email-address" class="email">Email:</label>
+                 <input 
+                 type="email" 
+                 name="email-address" 
+                 id="email-address" 
+                 required
+                 >
+                <label for="username" class="second">Username:</label>
+                 <input 
+                 type="text" 
+                 name="username" 
+                 id="username" 
+                 required
+                 maxlength="15"
+                 minlength="3"
+                 pattern="[A-Za-z0-9]{3,}"
+                 title="The username can only contain letters and numbers between 0-9"
+                 class="column-input"
+                 >
+                </div>
+                </fieldset>
+
+                <fieldset class="password-config">
+               <div class="container">
+                <label for="password" class="password">Password:</label>
+                 
+                 <input 
+                 type="password" 
+                 name="password" 
+                 id="password" 
+                 required
+                 
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                 title="Must contain at least one uppercase letter, one lowercase letter and one number"
+                 placeholder="Must contain at leat 8 characters"
+                 >
+                <label for="confirm-password" class="third">Confirm password:</label>
+                 <input 
+                 type="password" 
+                 name="confirm-password" 
+                 id="confirm-password" 
+                 required
+                 
+                 >
+                </div>
+                 </fieldset>
+                
+
+                 <fieldset class="submit">
+                    
+                       <button type="submit">Create account</button>
+                       <p>Already have an account? <a>Log in</a></p>
+                 </fieldset>
+             </form>
+
+            </div>
+       </section>
+</main>
+</body>
+</html>

@@ -3,11 +3,18 @@
  padding: 0;    
 }
 
+:root {
+    --validation-color: rgb(54, 153, 54);
+    --container-background: rgb(19,19,19);
+    --input-active: rgba(40, 191, 241, 0.747);
+    --white: rgb(255,255,255);
+}
+
 html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+    color: var(--white);
     font-family: 'Raleway', sans-serif;
     background-color: rgba(5, 5, 5, 0.94);
 }
@@ -28,7 +35,7 @@ main > section {
  #img-container {
     width: 100%;
     height: 50rem;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--container-background);
 } 
 
  img {
@@ -39,7 +46,7 @@ main > section {
 
 figcaption {
     width: 100%;
-    background-color: #222;
+    background-color: var(--container-background);
     opacity: 0.8;
     color: rgb(0, 0, 229);
     text-align: center;
@@ -51,7 +58,7 @@ figcaption {
 
 /*For the form*/
 #form-container {
-    background-color: rgb(19, 19, 19);
+    background-color: var(--container-background);
    height: 50rem;
 }
 
@@ -91,7 +98,7 @@ legend {
 /*Styling inputs*/
 
 input {
-    border: 2px solid #ffdddd;
+    border: 2px solid var(--white);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     height: 1.8rem;
@@ -99,12 +106,12 @@ input {
 }
 
 input:valid {
-    border-color:rgb(54, 153, 54);
+    border-color: var(--validation-color);
 }
 
 
 input:hover {
-    border-color: rgba(40, 191, 241, 0.747);
+    border-color: var(--input-active);
 }
 
 input:focus {
@@ -152,9 +159,9 @@ label {
 button {
     padding: 0.5rem 1.9rem;
     border-radius: 8px;
-    border-color: rgb(54, 153, 54);
-    background-color: rgb(54, 153, 54);
-    color: rgb(255, 255, 255);
+    border-color: var(--validation-color);
+    background-color: var(--validation-color);
+    color: var(--white);
     margin-left: 4.1rem;
     margin-bottom: 0.5rem;
 }
@@ -165,20 +172,20 @@ button {
 }
 
 button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #222;
+    background-color: var(--white);
+    color: var(--container-background);
 }
 
 button:active {
-    box-shadow:  2px 2px rgb(54, 153, 54);
+    box-shadow:  2px 2px var(--validation-color);
 }
 
 a {
-  color: rgb(54, 153, 54);
+  color: var(--validation-color);
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: var(--white);
 }
 
 /*Styles for mobile devices*/

@@ -195,8 +195,11 @@ a:hover {
 
    main{
     flex-flow: column;
-    
+    height: auto;
+    text-align: center;
    }
+
+
 
 }
 

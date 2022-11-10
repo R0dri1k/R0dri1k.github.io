@@ -9,6 +9,7 @@ html, body {
     padding: 0;
     color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
+    background-color: rgba(5, 5, 5, 0.94);
 }
 
 main {
@@ -24,10 +25,17 @@ main > section {
 
 /*For the image*/
 
-img {
+ #img-container {
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(19, 19, 19);
+} 
+
+ img {
     width: 100%;
     height: 100%;
-}
+    overflow: hidden;
+}  
 
 figcaption {
     width: 100%;
@@ -42,6 +50,10 @@ figcaption {
 }
 
 /*For the form*/
+#form-container {
+    background-color: rgb(19, 19, 19);
+   height: 50rem;
+}
 
 .title {
     display: flex;
@@ -51,14 +63,12 @@ figcaption {
     margin-left: 1.8rem;
 }
 
+
 fieldset {
     border: 0 none;
     margin-top: 30px;
     width: 100%;
     padding: 2rem 0;
-}
-#form-container {
-    background-color: rgba(0, 0, 0, 0.93);
 }
 
 
@@ -77,22 +87,40 @@ legend {
 }
 
 
-label {
-    
-   position: relative;
-   bottom: 15px;
-}
+
+/*Styling inputs*/
 
 input {
+    border: 2px solid #ffdddd;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     height: 1.8rem;
-    border-radius: 8px;
+    border-radius: 8px;  
+}
+
+input:valid {
+    border-color:rgb(54, 153, 54);
+}
+
+
+input:hover {
+    border-color: rgba(40, 191, 241, 0.747);
+}
+
+input:focus {
+    box-shadow: 0 4px rgba(40, 191, 241, 0.947);
 }
 
 .first-input {
     position: relative;
     right: 1.6rem;   
+}
+
+/*Styling labels*/
+
+label {
+   position: relative;
+   bottom: 15px;
 }
 
 .first {
@@ -117,6 +145,7 @@ input {
     
 }
 
+
 /*For submit section*/
 
 
@@ -140,7 +169,24 @@ button:hover {
     color: #222;
 }
 
+button:active {
+    box-shadow:  2px 2px rgb(54, 153, 54);
+}
+
+a {
+  color: rgb(54, 153, 54);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*Styles for mobile devices*/
 
 
+@media screen and (max-width: 768px) {
+
+
+}
 
 

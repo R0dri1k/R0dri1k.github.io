@@ -77,6 +77,7 @@
                  pattern="[A-Za-z0-9]{3,}"
                  title="The username can only contain letters and numbers between 0-9"
                  class="column-input"
+                 
                  >
                 </div>
                 </fieldset>
@@ -101,7 +102,8 @@
                  name="confirm-password" 
                  id="confirm-password" 
                  required
-                 
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                 title="Must match with password"
                  >
                 </div>
                  </fieldset>

@@ -223,6 +223,11 @@ a:hover {
     position: static;
    }
 
+   figcaption {
+    bottom: 8rem;
+    
+   }
+
 }
 
 

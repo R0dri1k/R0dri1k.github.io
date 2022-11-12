@@ -224,7 +224,8 @@ a:hover {
    }
 
    figcaption { 
-    position: static;
+    position: relative;
+    bottom: 10rem;
    }
 
    button {

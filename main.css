@@ -201,7 +201,7 @@ a:hover {
     text-align: center;
    }
 
-  label {
+  label, .first, .second, .third, .first-label, .email, .password {
     position: static;
   }
 

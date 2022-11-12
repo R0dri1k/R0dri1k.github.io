@@ -191,7 +191,7 @@ a:hover {
 /*Styles for mobile devices*/
 
 
-@media only screen and  (max-width: 768px) {
+@media only screen and  (max-width: 736px) {
 
    main{
     display: flex;
@@ -217,9 +217,10 @@ a:hover {
     position: static;
    }
 
-   input {
+   input, .first-input {
     justify-content: center;
-    margin-left: 8vh;
+    margin-left: 2rem;
+    position: static;
    }
 
 }

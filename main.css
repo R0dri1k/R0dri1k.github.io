@@ -194,6 +194,7 @@ a:hover {
 @media only screen and  (max-width: 768px) {
 
    main{
+    display: flex;
     flex-flow: column;
     height: auto;
     text-align: center;
@@ -206,6 +207,7 @@ a:hover {
 
    label {
      position: static;
+     width: 100%;
    }
 
 }

@@ -201,9 +201,10 @@ a:hover {
     text-align: center;
    }
 
-  label, .first, .second, .third, .first-label, .email, .password {
-    position: static;
-  }
+   fieldset {
+    display: flex;
+    flex-direction: column;
+   }
 
    
 

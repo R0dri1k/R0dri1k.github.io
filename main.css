@@ -195,20 +195,17 @@ a:hover {
 
    main{
     display: flex;
-    flex-flow: column;
-    height: auto;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
     text-align: center;
    }
 
-   #form-container {
-    display: flex;
-    justify-content: center;
-   }
+  label {
+    position: static;
+  }
 
-   label {
-     position: static;
-     width: 100%;
-   }
+   
 
 }
 

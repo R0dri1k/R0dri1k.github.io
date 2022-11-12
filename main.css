@@ -217,7 +217,7 @@ a:hover {
     position: static;
    }
 
-   input, .first-input {
+   .container > input {
     justify-content: center;
     margin-left: 2rem;
     position: static;

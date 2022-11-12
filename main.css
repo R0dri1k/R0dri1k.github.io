@@ -196,8 +196,6 @@ a:hover {
    main{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     text-align: center;
    }
 
@@ -208,6 +206,7 @@ a:hover {
 
    label, .first, .second, .third, .email, .password, .first-label  {
     position: static;
+    width: 100%;
    }
 
    

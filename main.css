@@ -201,6 +201,11 @@ a:hover {
 
    #img-container {
     height: 50vh;
+    margin-bottom: 3rem;
+   }
+
+   #form-container {
+    margin-top: 2rem;
    }
 
    legend {
@@ -224,9 +229,11 @@ a:hover {
     position: static;
    }
 
+   
+
+
    figcaption { 
     position: static;
-    margin-bottom: 3rem;
    }
 
    button {

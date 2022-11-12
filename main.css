@@ -217,6 +217,10 @@ a:hover {
     position: static;
    }
 
+   input {
+    justify-content: center;
+   }
+
 }
 
 

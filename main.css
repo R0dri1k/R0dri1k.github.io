@@ -208,6 +208,7 @@ a:hover {
    }
 
    .container {
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     height: auto;

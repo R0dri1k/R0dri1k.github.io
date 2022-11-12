@@ -223,9 +223,12 @@ a:hover {
     position: static;
    }
 
-   figcaption {
-    bottom: 8rem;
-    
+   figcaption { 
+    position: static;
+   }
+
+   button {
+    margin-right: 2rem;
    }
 
 }

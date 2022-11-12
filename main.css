@@ -199,6 +199,14 @@ a:hover {
     text-align: center;
    }
 
+   #img-container {
+    height: 50vh;
+   }
+
+   legend {
+    margin-left: 4.1vw;
+   }
+
    .container {
     display: flex;
     flex-direction: column;
@@ -208,6 +216,7 @@ a:hover {
    .container > label {
     position: static;
    }
+
 }
 
 

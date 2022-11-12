@@ -234,6 +234,7 @@ a:hover {
 
    figcaption { 
     position: static;
+    font-size: large;
    }
 
    button {

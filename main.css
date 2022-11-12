@@ -201,11 +201,7 @@ a:hover {
 
    #img-container {
     height: 50vh;
-    margin-bottom: 4rem;
-   }
-
-   #form-container {
-    margin-top: 4rem;
+    margin-bottom: 3rem;
    }
 
    legend {
@@ -234,7 +230,7 @@ a:hover {
 
    figcaption { 
     position: static;
-    font-size: large;
+    font-size: xx-large;
    }
 
    button {

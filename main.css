@@ -203,7 +203,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: brown;
+   }
+
+   .container > label {
+    position: static;
    }
 }
 
